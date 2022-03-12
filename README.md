@@ -8,7 +8,7 @@ Depois pode rodar os outros 2 com o mesmo comando acima.
 
 ## INSTALAR O JSON-SERVER GLOBALMENTE
 
-npm install -g json-server
+```npm install -g json-server```
 
 ### RODAR O JSON SERVER
 
