@@ -1,0 +1,32 @@
+version: '3.4'
+
+services:
+  microfrontendnext:
+    image: microfrontendnext
+    build:
+      context: micro-front-end-next
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000
+
+  microfrontendvue:
+    image: microfrontendvue
+    build:
+      context: micro-front-end-vue
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 8080:8080
+
+  microfrontendreact:
+    image: microfrontendreactreact
+    build:
+      context: micro-front-end-react
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3001:3000
