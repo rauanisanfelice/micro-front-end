@@ -6,8 +6,6 @@ services:
     build:
       context: micro-front-end-next
       dockerfile: ./Dockerfile
-    environment:
-      NODE_ENV: production
     ports:
       - 3000:3000
 
