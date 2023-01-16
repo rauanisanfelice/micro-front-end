@@ -1,12 +1,10 @@
-# INSTRUÇÕES
+# Micro Front-End
 
-RODAR PRIMEIRO O FRONT-NEXT:
+## INSTRUÇÕES
 
 ```bash
-npm start
+docker-compose up -d
 ```
-
-Depois pode rodar os outros 2 com o mesmo comando acima.
 
 ## INSTALAR O JSON-SERVER GLOBALMENTE
 
